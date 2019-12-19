@@ -68,7 +68,7 @@ const getWinner = (cChoice, pChoice) =>
 //   return RESULT_COMPUTER_WINS;
 // }
 
-startGameBtn.addEventListener('click', () => {
+startGameBtn.addEventListener('click',function ()  {
   //making sure the game is running and if so, it does not start again
 
   if (gameIsRunning) {
