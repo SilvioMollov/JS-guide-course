@@ -35,7 +35,7 @@ const getPlayerChoice = () => {
 const getComputerChoice = () => {
   //Creating the computer choice.
 
-  const randomValue = Math.random();
+  const randomValue = Math.random;
   if (randomValue < 0.34) {
     return ROCK;
   } else if (randomValue < 0.67) {
@@ -91,5 +91,5 @@ startGameBtn.addEventListener('click',function ()  {
   }
 
   alert(message);
-  gameIsRunning = false;
+  gameIsRunning = false; asdasdasdasdads 
 });
